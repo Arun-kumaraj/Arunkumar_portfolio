@@ -6,8 +6,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 SECRET_KEY = 'django-insecure-)_zm4t$2vv!(-y@8!l3)mwpll4f-4d#zv!fqv@oo%!m!&qarvv'
-DEBUG = True
-ALLOWED_HOSTS = []
+DEBUG = False
+ALLOWED_HOSTS = ['arun1922portfolio.netlify.app']
+
 
 # Application definition
 INSTALLED_APPS = [
